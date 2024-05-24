@@ -1,0 +1,12 @@
+##blacklist 或者 whitelist
+##黑名单的话玩家就没办法输入配置的命令了
+##白名单的话玩家就只能输入你配置的命令了
+limit_type: blacklist
+msg: '&c你没有权限输入这个命令'
+commands:
+  - '/help'
+  - '/?'
+  - '/plugins'
+  - '/pl'
+  - '/bukkit:pl'
+  - '/bukkit:plugins'
